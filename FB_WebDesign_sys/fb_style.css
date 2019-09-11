@@ -1,0 +1,166 @@
+/* Universal styles */
+* {
+    font-family: 'Crimson Text', serif;
+
+}
+
+/* Body rulesets */
+body {
+    display: block;
+    margin: 0 15%;
+
+}
+/* Header and Text styles rulesets */
+header {
+   	display: flex;
+   	flex-direction: row;
+    min-height: 70px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.col-1-2 {
+    width: 50%;
+    margin: auto 0;
+}
+
+header nav {
+    float: right;
+}
+a {
+    font-weight: 600;
+    color: #000000;
+    padding: 5px;
+}
+a:hover {
+    font-size: 1.25em;
+}
+h2 {
+    font-size: 1.62em;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    display: block;
+    border: 1px solid #0B7C80;
+    padding: 10px;
+    margin: 5px;
+}
+h3 {
+    font-size: 1.38em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Color rulesets */
+.container-colors {
+    display: block;
+}
+.container-colors {
+
+}
+.color p {
+    text-align: center;
+
+}
+.first-panel {
+    display: inline-block;
+    width: 24%;
+    min-height: 100px;
+    margin: 20px auto;
+    background-color: #D9B88F;
+
+}
+.second-panel {
+    display: inline-block;
+    width: 24%;
+    min-height: 100px;
+    margin: 20px auto;
+    background-color:  #8C8274;
+    color: #ffffff;
+}
+
+.third-panel {
+    display: inline-block;
+    width: 24%;
+    min-height: 100px;
+    margin: 20px auto;
+    background-color: #D9D0C5;
+}
+.fourth-panel {
+    display: inline-block;
+    width: 24%;
+    min-height: 100px;
+    margin: 20px auto;
+    background-color: #593D25;
+    color: #ffffff;
+}
+.fifth-panel {
+    display: inline-block;
+    width: 24%;
+    min-height: 100px;
+    margin: 20px auto;
+    background-color: #8C6849;
+    color: #ffffff;
+}
+
+/* Fonts rulesets */
+.container-fonts {
+
+}
+.font-1-panel {
+  font-family: 'Crimson Text', serif;
+  display: inline-block; 
+  width: 49%;
+}
+.crimson-label {
+    text-decoration: underline;
+    font-weight: 400;
+}
+.crimson-regular {
+    font-style: normal;
+}
+.crimson-semi-bold {
+    font-weight: 600;
+}
+.crimson-regular-italic {
+    font-style: italic;
+}
+.font-2-panel {
+    display: inline-block;
+    width: 49%;
+}
+.montserrat-label {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+    font-weight: 500;
+}
+.montserrat-medium {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+.montserrat-semi-bold {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}
+.montserrat-medium-italic {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+}
+.font-3-panel {
+    display: inline-block;
+    width: 49%;
+}
+.raleway-label {
+    font-size: 0.75em;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: underline;
+    font-weight: 400;
+}
+.raleway-extra-light-italic {
+    font-size: 0.75em;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+}
