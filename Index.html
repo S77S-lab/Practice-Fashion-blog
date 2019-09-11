@@ -9,19 +9,22 @@
   </head>
   <body>
     <header>
-      <a href="#contact"><img src="https://s3.amazonaws.com/codecademy-content/courses/learn-html/elements-and-structure/profile.jpg"/></a>
-      <h3>by Isabelle Rodriguez | <span class="timeel days">00</span><span class="timeel timeRefDays">day(s)</span> ago</h3>
       <nav>
         <ul>
-          <li>Guide</li>
-          <li>Tickets</li>
-          <li>Dressing</li>
-          <li>Related Content</li>
-          <li>Contacts</li>
+          <li><a href="#guide-description">Guide</a></li>
+          <li><a href="#ticket-description">Tickets</a></li>
+          <li><a href="#dress-description">Dressing</a></li>
+          <li><a href="#related-content">Related Content</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+          <li><a href="#posts">All Posts</a></li>
         </ul>
       </nav>
+      <a href="#contacts"><img src="https://s3.amazonaws.com/codecademy-content/courses/learn-html/elements-and-structure/profile.jpg"/></a>
+      <h3>by Isabelle Rodriguez | <span class="timeel days">00</span><span class="timeel timeRefDays"> day(s)</span> ago</h3>
+     
     </header>
     <main>
+      <section id="posts">
         <article id="guide-description">
         <h1>An Insider's Guide to NYFW</h1>
         <a href="#guide-description"><img src="https://s3.amazonaws.com/codecademy-content/courses/learn-html/elements-and-structure/image-one.jpeg"/></a>          
@@ -36,17 +39,20 @@
           <h2>Dressing for the Shows</h2>
           <a href="#dress-description"><img src="https://s3.amazonaws.com/codecademy-content/courses/learn-html/elements-and-structure/image-three.jpeg"/></a>
             <p>Always be true to your own sense of style, if you dont youll be uncomfortable the whole time and it will show. Remember, NYFW is about expressing yourself and taking in what the designers have chosen to express through their new lines. Also its important to wear shoes youll be comfortable in all day. Obviously you want to look good, but youll be on your feet all day long, so be prepared.</p>
-        </article>  
+        </article>
+        <artile id="related-content">  
           <h4>Related Content</h4>
           <ul>
             <li>How To Style Boryfriend Jeans</li>
             <li>When Print Is Too Much</li>
             <li>The Overalls Trend</li>
             <li>Fall's It Color:Blush</li>
-          </ul>    
+          </ul>
+        </artile>  
+      </section>      
     </main>
     <footer>
-      <div id="contact">
+      <div id="contacts">
         <p><a href="mailto:isa@fashionblog.com"><strong>email:</strong> isa@fashionblog.com</a> | <strong>phone:</strong>917-555-1098 | <strong>address:</strong>371 284th St, New York, NY, 10001</p>
       </div>
     </footer>
