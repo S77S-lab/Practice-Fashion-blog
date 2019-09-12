@@ -1,9 +1,51 @@
 
-nav {
+body {
+    margin: 0 auto;
+}
+header {
     position: fixed;
     width: 100%;
+    z-index: 10;
+    top: 0px;
+    height: 45px;
+    border-bottom: 1px solid;
 }
-main, footer {
-    position: relative;
-    top: 40px;
+nav {
+    height: 45px;
+}
+.navigation{
+    float: right;
+}
+#menu:hover {
+    cursor: pointer;
+}
+.navigation li {
+    display: none;
+}
+
+main {
+    margin-block-start: 50px;
+    margin-block-end: 45px;
+}
+#home, #post {
+    margin: 5px;
+}
+
+#home, #guide, #ticket, #dress {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#guide, #ticket, #dress {
+    padding-top: 45px;
+}
+
+#home img, #post img {
+    width: 370px;
+}
+h2, h4, h3 {
+    text-align: center;
+}
+#contacts {
+    border-top: 1px solid;
 }
