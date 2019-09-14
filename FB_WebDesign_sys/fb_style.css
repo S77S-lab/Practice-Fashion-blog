@@ -53,10 +53,7 @@ h3 {
 
 /* Color rulesets */
 .container-colors {
-    display: block;
-}
-.container-colors {
-
+    display: flex;
 }
 .color p {
     text-align: center;
@@ -67,7 +64,7 @@ h3 {
     width: 24%;
     min-height: 100px;
     margin: 20px auto;
-    background-color: #D9B88F;
+    background-color: #9fa8a3;
 
 }
 .second-panel {
@@ -75,7 +72,7 @@ h3 {
     width: 24%;
     min-height: 100px;
     margin: 20px auto;
-    background-color:  #8C8274;
+    background-color: #e3e0cf;
     color: #ffffff;
 }
 
@@ -84,23 +81,7 @@ h3 {
     width: 24%;
     min-height: 100px;
     margin: 20px auto;
-    background-color: #D9D0C5;
-}
-.fourth-panel {
-    display: inline-block;
-    width: 24%;
-    min-height: 100px;
-    margin: 20px auto;
-    background-color: #593D25;
-    color: #ffffff;
-}
-.fifth-panel {
-    display: inline-block;
-    width: 24%;
-    min-height: 100px;
-    margin: 20px auto;
-    background-color: #8C6849;
-    color: #ffffff;
+    background-color: #c5d5cb;
 }
 
 /* Fonts rulesets */
