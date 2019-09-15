@@ -1,6 +1,6 @@
 
 body {
-    margin: 0 auto;
+    margin: auto;
 }
 header {
     position: fixed;
@@ -8,18 +8,17 @@ header {
     z-index: 10;
     top: 0px;
     height: 45px;
-    background-color: #809fa8a3;
-
+    background-color: #969fa8a3;
 }
 nav {
     height: 45px;
 }
 #menu img {
-    padding-left: 5px;
-    padding-right: 10px;
+    
 }
 .navigation{
     float: right;
+    padding-inline-end: 10px;
 }
 #menu:hover {
     cursor: pointer;
@@ -27,35 +26,51 @@ nav {
 .navigation li {
     display: none;
 }
-
 main {
-    margin-block-start: 50px;
-    margin-block-end: 45px;
+    margin-block-start: 45px;
 }
-#home, #post {
-    margin: 5px;
+#page-title img {
+    /* position center if imgage */
+    margin-top: 10px;
+}
+#page-title h3 {
+    margin-top: 63.720px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+#page-title {
+    position: sticky;
+    top: -215px;
+    background-color: #e3e0cf;
+    padding-top: 5px 0px;
+}
+#page-post {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-#home {
-    background-color: #e3e0cf;
-}
-#home, #post, #guide, #ticket, #dress {
+.post {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 45px 5px;
+    border: 1px solid #c5d5cb;
+    margin: 5px;
 }
-#guide, #ticket, #dress, #related-content {
-    padding-top: 45px;
-}
-
-#home img, #post img {
-    width: 370px;
+.post p {
+/* set up max width of p text box by declare a flex-grow possibly or max-width */
+    display: none;
+    width: 200px;
 }
 h2, h4, h3 {
     text-align: center;
 }
+#related-content {
+    padding-top: 45px;
+}
 #contacts {
-    border-top: 1px solid;
+    border-top: 1px solid #c5d5cb;
 }
 #contacts p {
     text-align: center;
