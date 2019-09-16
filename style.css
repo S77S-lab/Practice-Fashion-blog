@@ -1,6 +1,10 @@
 
+html {
+    font-size: 16px;
+}
 body {
     margin: auto;
+    font-family: 'Source Code Pro', monospace; 
 }
 header {
     position: fixed;
@@ -33,6 +37,7 @@ main {
     margin-top: 63.720px;
     margin-bottom: 10px;
     padding-bottom: 10px;
+    font-size: 1.17em;
 }
 #page-title {
     display: flex;
@@ -45,6 +50,11 @@ main {
 #page-title img {
     margin: 10px auto 0px;
 }
+#page-title h3 a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
 #page-post {
     display: flex;
     flex-wrap: wrap;
@@ -55,7 +65,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 45px 5px;
+    padding: 15px 5px;
     border: 1px solid #c5d5cb;
     margin: 5px;
 }
@@ -66,6 +76,13 @@ main {
 }
 h2, h4, h3 {
     text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+h2 {
+    font-size: 1.5em;
+}
+h4 {
+    font-size: 1em;
 }
 #related-content {
     padding-top: 45px;
@@ -75,5 +92,13 @@ h2, h4, h3 {
 }
 #contacts p {
     text-align: center;
+    font-size: 0.823125em;
+    font-style: italic;
 }
-
+#contacts a {
+    text-decoration: none;
+    color: black;
+}
+#contacts a:hover {
+    cursor: pointer;
+}
