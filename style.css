@@ -65,7 +65,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 15px 5px;
+    padding: 85px 5px;
     border: 1px solid #c5d5cb;
     margin: 5px;
 }
@@ -94,6 +94,8 @@ h4 {
     text-align: center;
     font-size: 0.823125em;
     font-style: italic;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 #contacts a {
     text-decoration: none;
