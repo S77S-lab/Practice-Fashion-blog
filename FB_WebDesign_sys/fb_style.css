@@ -1,6 +1,6 @@
 /* Universal styles */
 * {
-    font-family: 'Crimson Text', serif;
+    font-family: 'Source Code Pro', monospace;
 
 }
 
@@ -36,9 +36,9 @@ a:hover {
     font-size: 1.25em;
 }
 h2 {
-    font-size: 1.62em;
+    font-size: 24px;
     font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .container {
     display: block;
@@ -47,8 +47,14 @@ h2 {
     margin: 5px;
 }
 h3 {
-    font-size: 1.38em;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 18.72px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+h4 {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
 
 /* Color rulesets */
@@ -89,59 +95,45 @@ h3 {
 
 }
 .font-1-panel {
-  font-family: 'Crimson Text', serif;
   display: inline-block; 
   width: 49%;
 }
-.crimson-label {
+.source_code_pro_label {
     text-decoration: underline;
     font-weight: 400;
 }
-.crimson-regular {
+.source_code_pro_regular {
     font-style: normal;
 }
-.crimson-semi-bold {
+.source_code_pro_semi_bold {
     font-weight: 600;
 }
-.crimson-regular-italic {
+.source_code_pro_semi_bold_italic {
     font-style: italic;
+    font-weight: 600;
 }
 .font-2-panel {
     display: inline-block;
     width: 49%;
 }
-.montserrat-label {
-    font-family: 'Montserrat', sans-serif;
+.roboto_regular_italic_label {
+    font-family: 'Roboto', sans-serif;
     text-decoration: underline;
-    font-weight: 500;
-}
-.montserrat-medium {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-}
-.montserrat-semi-bold {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-}
-.montserrat-medium-italic {
-    font-family: 'Montserrat', sans-serif;
     font-style: italic;
-    font-weight: 500;
-}
-.font-3-panel {
-    display: inline-block;
-    width: 49%;
-}
-.raleway-label {
-    font-size: 0.75em;
-    font-family: 'Raleway', sans-serif;
-    text-decoration: underline;
     font-weight: 400;
 }
-.raleway-extra-light-italic {
-    font-size: 0.75em;
-    font-family: 'Raleway', sans-serif;
+.roboto_medium_italic {
+    font-family: 'Roboto', sans-serif;
     font-style: italic;
+    font-weight: 500;
+}
+.roboto_bold {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+.roboto_bold_italic {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 700;
 }

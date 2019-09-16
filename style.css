@@ -29,20 +29,21 @@ nav {
 main {
     margin-block-start: 45px;
 }
-#page-title img {
-    /* position center if imgage */
-    margin-top: 10px;
-}
 #page-title h3 {
     margin-top: 63.720px;
     margin-bottom: 10px;
     padding-bottom: 10px;
 }
 #page-title {
+    display: flex;
+    flex-direction: column;
     position: sticky;
     top: -215px;
     background-color: #e3e0cf;
     padding-top: 5px 0px;
+}
+#page-title img {
+    margin: 10px auto 0px;
 }
 #page-post {
     display: flex;
@@ -60,8 +61,8 @@ main {
 }
 .post p {
 /* set up max width of p text box by declare a flex-grow possibly or max-width */
-    display: none;
-    width: 200px;
+    /* display: none;*/
+    text-align: center;
 }
 h2, h4, h3 {
     text-align: center;
