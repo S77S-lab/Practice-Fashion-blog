@@ -60,7 +60,7 @@ main {
     margin: 5px;
 }
 .post p {
-/* set up max width of p text box by declare a flex-grow possibly or max-width */
+/* set up max width of p body text box by @media query */
     /* display: none;*/
     text-align: center;
 }

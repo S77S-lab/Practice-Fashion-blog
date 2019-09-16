@@ -56,6 +56,9 @@ h4 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
 }
+.aux_text {
+    font-size: 14px;
+}
 
 /* Color rulesets */
 .container-colors {
@@ -92,7 +95,7 @@ h4 {
 
 /* Fonts rulesets */
 .container-fonts {
-
+    display: flex;
 }
 .font-1-panel {
   display: inline-block; 
