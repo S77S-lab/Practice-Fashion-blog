@@ -6,15 +6,13 @@ body {
     margin: auto;
     font-family: 'Source Code Pro', monospace; 
 }
-header {
+nav {
     position: fixed;
     width: 100%;
     z-index: 10;
     top: 0px;
     height: 45px;
     background-color: #969fa8a3;
-}
-nav {
     height: 45px;
 }
 #menu img {
@@ -30,30 +28,35 @@ nav {
 .navigation li {
     display: none;
 }
-main {
+header {
+    position: sticky;
+    top: -215px;
     margin-block-start: 45px;
 }
-#page-title h3 {
-    margin-top: 63.720px;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
-    font-size: 1.17em;
-}
-#page-title {
+#page-title figure {
     display: flex;
     flex-direction: column;
     position: sticky;
     top: -215px;
     background-color: #e3e0cf;
     padding-top: 5px 0px;
+    margin: 0px;
+}
+#page-title figcaption {
+    margin: 45px 0px 0px;
+    font-size: 1.17em;
+    border-block-start: 1px solid #c5d5cb;
 }
 #page-title img {
-    margin: 10px auto 0px;
+    margin: 10px auto;
 }
-#page-title h3 a {
+#page-title figcaption a {
     text-decoration: none;
     cursor: pointer;
     color: black;
+}
+main {
+    margin-block-start: 45px;
 }
 #page-post {
     display: flex;
@@ -75,7 +78,7 @@ main {
     text-align: center;
     color: rgba(0,0,0, 0.5)
 }
-h2, h4, h3 {
+h2, h4, figcaption {
     text-align: center;
     font-family: "Roboto", sans-serif;
     color: rgba(0,0,0, 0.5)
