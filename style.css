@@ -63,20 +63,22 @@ main {
 
 .post {
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
     align-items: center;
-    padding: 85px 5px;
+    padding: 5px 5px;
     border: 1px solid #c5d5cb;
     margin: 5px;
 }
 .post p {
 /* set up max width of p body text box by @media query */
-    /* display: none;*/
+    display: none;
     text-align: center;
+    color: rgba(0,0,0, 0.5)
 }
 h2, h4, h3 {
     text-align: center;
     font-family: "Roboto", sans-serif;
+    color: rgba(0,0,0, 0.5)
 }
 h2 {
     font-size: 1.5em;
@@ -86,6 +88,9 @@ h4 {
 }
 #related-content {
     padding-top: 45px;
+}
+.ext-content li {
+    color: rgba(0,0,0, 0.5)
 }
 #contacts {
     border-top: 1px solid #c5d5cb;
