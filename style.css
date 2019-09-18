@@ -11,7 +11,6 @@ nav {
     width: 100%;
     z-index: 10;
     top: 0px;
-    height: 45px;
     background-color: #9fa8a3;
     height: 45px;
 }
@@ -20,7 +19,8 @@ nav {
 }
 .navigation{
     float: right;
-    padding-inline-end: 10px;
+    padding: 9px 10px;
+    margin: auto;
 }
 #menu:hover {
     cursor: pointer;
@@ -35,9 +35,7 @@ header {
 }
 #page-title figure {
     display: flex;
-    flex-direction: column;
-    position: sticky;
-    top: -215px;
+
     background-color: #e3e0cf;
     margin: 0px;
 }
