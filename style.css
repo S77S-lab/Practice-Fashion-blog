@@ -12,14 +12,14 @@ nav {
     z-index: 10;
     top: 0px;
     background-color: #9fa8a3;
-    height: 45px;
+    height: 40px;
 }
 #menu img {
     
 }
 .navigation{
     float: right;
-    padding: 9px 10px;
+    padding: 5px 10px;
     margin: auto;
 }
 #menu:hover {
@@ -34,7 +34,7 @@ nav {
 header {
     position: sticky;
     top: -119px;
-    margin-block-start: 45px;
+    margin-block-start: 40px;
 }
 #page-title {
     display: flex;
@@ -74,6 +74,12 @@ main {
     border: 1px solid #c5d5cb;
     margin: 5px;
 }
+.post figure {
+    margin: auto;
+}
+.post img {
+    width: 100px;
+}
 .post p {
     display: none;
     text-align: center;
@@ -88,12 +94,15 @@ h2 {
     font-size: 1em;
 }
 h4 {
+    
+}
+#related-content h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-size: 1em;
 }
-#related-content {
-    padding-top: 45px;
-}
 .ext-content li {
+
     color: rgba(0,0,0, 0.5)
 }
 #contacts {
@@ -103,8 +112,7 @@ h4 {
     text-align: center;
     font-size: 0.823125em;
     font-style: italic;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin: 5px;
 }
 #contacts a {
     text-decoration: none;
