@@ -28,27 +28,33 @@ nav {
 .navigation li {
     display: none;
 }
+
+/* Header Style */
+
 header {
     position: sticky;
-    top: -165px;
+    top: -119px;
     margin-block-start: 45px;
+}
+#page-title {
+    display: flex;
+    flex-direction: column;
 }
 #page-title figure {
     display: flex;
-
     background-color: #e3e0cf;
     margin: 0px;
 }
-#page-title img {
+#page-title figure img {
     margin: 10px auto;
+    width: 36%;
 }
 #page-title figcaption {
-    margin: 5px;
-    padding: 5px;
+    padding: 10px;
     font-size: 1.17em;
     border-block-start: 1px solid #c5d5cb;
     border-block-end: 1px solid #c5d5cb;
-    /* chenge background-color of figcaption to #e3e0cf while figure reach top stick position */ 
+    /* chenge background-color of figcaption to #e3e0cf while figcapture reach top stick position */ 
 }
 #page-title figcaption a {
     text-decoration: none;
@@ -60,14 +66,13 @@ main {
 }
 #page-post {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    overflow: auto;
 }
 
 .post {
-    display: flex;
+   /* display: flex;
     flex-direction: row-reverse;
-    align-items: center;
+    align-items: center; */
     padding: 5px 5px;
     border: 1px solid #c5d5cb;
     margin: 5px;
@@ -84,7 +89,7 @@ h2, h4, figcaption {
     color: rgba(0,0,0, 0.5)
 }
 h2 {
-    font-size: 1.5em;
+    font-size: 1em;
 }
 h4 {
     font-size: 1em;
