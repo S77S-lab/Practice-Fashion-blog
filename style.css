@@ -70,15 +70,11 @@ main {
 }
 
 .post {
-   /* display: flex;
-    flex-direction: row-reverse;
-    align-items: center; */
     padding: 5px 5px;
     border: 1px solid #c5d5cb;
     margin: 5px;
 }
 .post p {
-/* set up max width of p body text box by @media query */
     display: none;
     text-align: center;
     color: rgba(0,0,0, 0.5)
