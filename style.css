@@ -108,7 +108,7 @@ h4 {
     color: rgba(0,0,0, 0.5)
 }
 #contacts {
-    border-top: 1px solid #c5d5cb;
+    background-color: #c5d5cb;
 }
 #contacts p {
     text-align: center;
