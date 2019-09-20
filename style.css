@@ -51,7 +51,7 @@ header {
 }
 #page-title figcaption {
     padding: 10px;
-    font-size: 1.17em;
+    font-size: 1em;
     border-block-start: 1px solid #c5d5cb;
     border-block-end: 1px solid #c5d5cb;
     /* chenge background-color of figcaption to #e3e0cf while figcapture reach top stick position */ 
@@ -66,10 +66,12 @@ main {
 }
 #page-post {
     display: flex;
-    overflow: auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .post {
+    width: 100px;
     padding: 5px 5px;
     border: 1px solid #c5d5cb;
     margin: 5px;
