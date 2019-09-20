@@ -61,7 +61,7 @@ header {
     cursor: pointer;
     color: black;
 }
-@media only screen and (min-width: 376px) and (max-width: 667px) and (orientation: landscape) {
+@media only screen and (min-width: 375px) and (max-width: 667px) and (orientation: landscape) {
     header {
         top: -66px;
     }
