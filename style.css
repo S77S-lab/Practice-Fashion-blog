@@ -61,6 +61,18 @@ header {
     cursor: pointer;
     color: black;
 }
+@media only screen and (min-width: 376px) and (max-width: 667px) and (orientation: landscape) {
+    header {
+        top: -66px;
+    }
+    #page-title figure img {
+        width: 15%;
+        margin: 3px 5%;
+    }
+    #page-title figure {
+        justify-content: flex-start;
+    }
+}
 main {
     margin-block-start: 5px;
 }
@@ -77,7 +89,7 @@ main {
     margin: 5px;
 }
 .post figure {
-    margin: auto;
+    margin: 0 auto;
 }
 .post img {
     width: 100px;
