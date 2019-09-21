@@ -71,6 +71,11 @@ header {
         top: -100px;
     }
 }
+@media only screen and (min-width: 320px) and (max-width: 568px), (orientation: landscape) {
+    header {
+        top: -181px;
+    }
+}
 @media only screen and (min-width: 414px) and (max-width: 768px) {
     header {
         top: -128px;
@@ -91,7 +96,20 @@ header {
     #page-title figcaption {
         font-size: 1.6em;
     }
-
+}
+@media only screen and (min-width: 1280px) {
+    #page-title figure img {
+        width: 10%;
+        margin: 4px 5%;
+        padding: 45px 5px 10px;
+    }
+    #page-title h1 {
+        font-size: 1.8em;
+        line-height: 0.8;
+    }
+    #page-title figcaption {
+        font-size: 0.8em;
+    }
 }
 /* @media only screen and (min-width: 568px) {
     header {
