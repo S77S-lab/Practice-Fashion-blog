@@ -71,35 +71,27 @@ header {
         top: -100px;
     }
 }
-@media only screen and (min-width: 414px) {
+@media only screen and (min-width: 414px) and (max-width: 768px) {
     header {
         top: -128px;
     }
 }
-@media only screen and (min-width: 768px) {
-    #page-post {
-        margin: auto 0;
-    }
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
     #page-title h1 {
         font-size: 2.6em;
     }
     #page-title figcaption {
         font-size: 1.3em;
     }
-    #related-content h4 {
-        font-size: 1.62em;
-    }
 }
-@media only screen and (min-width: 1024px) {
-    #page-post {
-        margin: auto 0;
-    }
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
     #page-title h1 {
         font-size: 3.2em;
     }
     #page-title figcaption {
         font-size: 1.6em;
     }
+
 }
 /* @media only screen and (min-width: 568px) {
     header {
