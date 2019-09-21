@@ -49,9 +49,14 @@ header {
     margin: 10px auto;
     width: 36%;
 }
+#page-title h1 {
+    padding: 5px;
+    margin: 0;
+    color: rgba(0,0,0, 0.8)
+}
 #page-title figcaption {
     padding: 10px;
-    font-size: 1em;
+    font-size: 0.8em;
     border-block-start: 1px solid #c5d5cb;
     border-block-end: 1px solid #c5d5cb;
     /* chenge background-color of figcaption to #e3e0cf while figcapture reach top stick position */ 
@@ -61,18 +66,61 @@ header {
     cursor: pointer;
     color: black;
 }
-@media only screen and (min-width: 375px) and (max-width: 667px) and (orientation: landscape) {
+@media only screen and (max-width: 320px) {
+    header {
+        top: -100px;
+    }
+}
+@media only screen and (min-width: 414px) {
+    header {
+        top: -128px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    #page-post {
+        margin: auto 0;
+    }
+    #page-title h1 {
+        font-size: 2.6em;
+    }
+    #page-title figcaption {
+        font-size: 1.3em;
+    }
+    #related-content h4 {
+        font-size: 1.62em;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    #page-post {
+        margin: auto 0;
+    }
+    #page-title h1 {
+        font-size: 3.2em;
+    }
+    #page-title figcaption {
+        font-size: 1.6em;
+    }
+}
+/* @media only screen and (min-width: 568px) {
+    header {
+        top: -183px;
+    }
+} */
+/* @media only screen and (min-width: 667px) {
     header {
         top: -66px;
     }
     #page-title figure img {
         width: 15%;
-        margin: 3px 5%;
+        margin: 4px 5%;
     }
-    #page-title figure {
-        justify-content: flex-start;
+} */
+/* @media only screen and (min-width: 736px) {
+    header {
+        top: -84px;
     }
-}
+} */
+
 main {
     margin-block-start: 5px;
 }
@@ -99,7 +147,7 @@ main {
     text-align: center;
     color: rgba(0,0,0, 0.5)
 }
-h2, h4, figcaption {
+h1, h2, h4, figcaption {
     text-align: center;
     font-family: "Roboto", sans-serif;
     color: rgba(0,0,0, 0.5)
@@ -107,16 +155,12 @@ h2, h4, figcaption {
 h2 {
     font-size: 1em;
 }
-h4 {
-    
-}
 #related-content h4 {
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 1em;
 }
 .ext-content li {
-
     color: rgba(0,0,0, 0.5)
 }
 #contacts {
