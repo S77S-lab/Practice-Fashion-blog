@@ -127,11 +127,11 @@ main {
     margin: 0 auto;
 }
 .post img {
-    width: 100px;
+    width: 100%;
 }
 .post p {
     display: none;
-    text-align: center;
+    text-align: left;
     color: rgba(0,0,0, 0.5)
 }
 #page-post .post h2 {
