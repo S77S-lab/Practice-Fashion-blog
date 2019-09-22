@@ -188,7 +188,16 @@ main {
         font-size: 0.9em;
         padding: 11px;
     }
+    #page-post .post h2 {
+        font-size: 1.2em;
+    }
     #related-content h4 {
-        font-size: 
+        font-size: 1.2em; 
+    }
+    #related-content ul {
+        font-size: 1.1em;
+    }
+    #contacts p {
+        font-size: 0.9em;
     }
 }
