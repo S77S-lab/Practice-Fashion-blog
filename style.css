@@ -78,23 +78,23 @@ header {
 }*/
 /*@media only screen and (min-width: 414px) and (max-width: 768px) {
 }*/
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+/* @media only screen and (min-width: 768px) and (max-width: 1024px) {
     #page-title h1 {
         font-size: 2.6em;
     }
     #page-title figcaption {
         font-size: 1.3em;
     }
-}
-@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+} */
+/* @media only screen and (min-width: 1024px) and (max-width: 1280px) {
     #page-title h1 {
         font-size: 3.2em;
     }
     #page-title figcaption {
         font-size: 1.6em;
     }
-}
-@media only screen and (min-width: 1280px) {
+} */
+/* @media only screen and (min-width: 1280px) {
     #page-title figure img {
         width: 10%;
         margin: 4px 5%;
@@ -107,7 +107,7 @@ header {
     #page-title figcaption {
         font-size: 0.8em;
     }
-}
+} */
 main {
     margin-block-start: 5px;
 }
@@ -134,11 +134,6 @@ main {
     text-align: center;
     color: rgba(0,0,0, 0.5)
 }
-h1, h2, h4, figcaption {
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-    color: rgba(0,0,0, 0.5)
-}
 #page-post .post h2 {
     font-size: 1em;
     text-align: left;
@@ -149,9 +144,12 @@ h1, h2, h4, figcaption {
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 1em;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: rgba(0,0,0,);
 }
-.ext-content li {
-    color: rgba(0,0,0, 0.5)
+#related-content ul {
+    font-weight: 600;
 }
 #contacts {
     background-color: #c5d5cb;
