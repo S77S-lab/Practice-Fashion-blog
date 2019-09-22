@@ -70,15 +70,6 @@ header {
     cursor: pointer;
     color: black;
 }
-
-/* @media only screen and (min-width: 1024px) and (max-width: 1280px) {
-    #page-title h1 {
-        font-size: 3.2em;
-    }
-    #page-title figcaption {
-        font-size: 1.6em;
-    }
-} */
 /* @media only screen and (min-width: 1280px) {
     #page-title figure img {
         width: 10%;
@@ -103,7 +94,7 @@ main {
 }
 
 .post {
-    width: 43%;
+    width: 44%;
     padding: 5px 5px;
     border: 1px solid #c5d5cb;
     margin: 5px;
@@ -154,6 +145,9 @@ main {
     cursor: pointer;
 }
 @media only screen and (max-width: 320px) {
+    .post {
+        width: 43%;
+    }
     #page-title h1 {
         font-size: 1.2em;
     }
@@ -190,6 +184,9 @@ main {
     }
 }
 @media only screen and (min-width: 768px) {
+    .post {
+        width: 47%;
+    } 
     #page-title figure img {
         width: 45%;
     }
@@ -210,5 +207,33 @@ main {
     }
     #contacts p {
         font-size: 1em;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    #page-title figure img {
+        width: 200px;
+        height: 200px;
+        margin: 60px 8% 10px;
+    }
+    .post {
+        width: 31%;
+    }
+    #page-title h1 {
+        font-size: 2.6em;
+    }
+    #page-title figcaption {
+        font-size: 1.1em;
+    }
+    #page-post .post h2 {
+        font-size: 1.6em;
+    }
+    #related-content h4 {
+        font-size: 1.6em; 
+    }
+    #related-content ul {
+        font-size: 1.4em;
+    }
+    #contacts p {
+        font-size: 1.2em;
     }
 }
