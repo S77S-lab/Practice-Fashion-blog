@@ -32,8 +32,6 @@ nav {
 /* Header Style */
 
 header {
-    position: sticky;
-    top: -119px;
     margin-block-start: 40px;
 }
 #page-title {
@@ -47,40 +45,39 @@ header {
 }
 #page-title figure img {
     margin: 10px auto;
-    width: 36%;
+    width: 50%;
 }
 #page-title h1 {
     padding: 5px;
     margin: 0;
-    color: rgba(0,0,0, 0.8)
+    color: rgba(0,0,0, 0.8);
+    font-size: 1.4em;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
 }
 #page-title figcaption {
     padding: 10px;
     font-size: 0.8em;
     border-block-start: 1px solid #c5d5cb;
     border-block-end: 1px solid #c5d5cb;
-    /* chenge background-color of figcaption to #e3e0cf while figcapture reach top stick position */ 
+    line-height: 0.5;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: rgba(0,0,0, 0.5);
 }
 #page-title figcaption a {
     text-decoration: none;
     cursor: pointer;
     color: black;
 }
-@media only screen and (max-width: 320px) {
-    header {
-        top: -100px;
-    }
-}
-@media only screen and (min-width: 320px) and (max-width: 568px), (orientation: landscape) {
-    header {
-        top: -181px;
-    }
-}
-@media only screen and (min-width: 414px) and (max-width: 768px) {
-    header {
-        top: -128px;
-    }
-}
+/* @media only screen and (max-width: 320px) {
+} */
+/* @media only screen and (min-width: 320px), and (max-width: 568px), (orientation: landscape) { 
+}*/
+/* @media only screen and (min-width: 375px) and (max-width: 667px), (orientation: landscape) {
+}*/
+/*@media only screen and (min-width: 414px) and (max-width: 768px) {
+}*/
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     #page-title h1 {
         font-size: 2.6em;
@@ -111,26 +108,6 @@ header {
         font-size: 0.8em;
     }
 }
-/* @media only screen and (min-width: 568px) {
-    header {
-        top: -183px;
-    }
-} */
-/* @media only screen and (min-width: 667px) {
-    header {
-        top: -66px;
-    }
-    #page-title figure img {
-        width: 15%;
-        margin: 4px 5%;
-    }
-} */
-/* @media only screen and (min-width: 736px) {
-    header {
-        top: -84px;
-    }
-} */
-
 main {
     margin-block-start: 5px;
 }
@@ -141,7 +118,7 @@ main {
 }
 
 .post {
-    width: 100px;
+    width: 43%;
     padding: 5px 5px;
     border: 1px solid #c5d5cb;
     margin: 5px;
@@ -162,8 +139,11 @@ h1, h2, h4, figcaption {
     font-family: "Roboto", sans-serif;
     color: rgba(0,0,0, 0.5)
 }
-h2 {
+#page-post .post h2 {
     font-size: 1em;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    color: rgba(0,0,0, 0.5)
 }
 #related-content h4 {
     margin-top: 10px;
