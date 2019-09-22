@@ -241,27 +241,27 @@ main {
     #page-title figure img {
         width: 170px;
         height: 170px;
-        margin: 60px 8% 10px;
+        margin: 10px 4% 10px;
     }
     .post {
-        width: 13%;
+        width: 11%;
     }
     #page-title h1 {
-        font-size: 1.95em;
+        font-size: 1.3em;
     }
     #page-title figcaption {
-        font-size: 1.1em;
+        font-size: 0.9em;
     }
     #page-post .post h2 {
-        font-size: 1.4em;
+        font-size: 1.1em;
     }
     #related-content h4 {
-        font-size: 1.6em; 
+        font-size: 1.1em; 
     }
     #related-content ul {
-        font-size: 1.4em;
+        font-size: 1em;
     }
     #contacts p {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 }
