@@ -237,3 +237,31 @@ main {
         font-size: 1.2em;
     }
 }
+@media only screen and (min-width: 1280px) {
+    #page-title figure img {
+        width: 170px;
+        height: 170px;
+        margin: 60px 8% 10px;
+    }
+    .post {
+        width: 13%;
+    }
+    #page-title h1 {
+        font-size: 1.95em;
+    }
+    #page-title figcaption {
+        font-size: 1.1em;
+    }
+    #page-post .post h2 {
+        font-size: 1.4em;
+    }
+    #related-content h4 {
+        font-size: 1.6em; 
+    }
+    #related-content ul {
+        font-size: 1.4em;
+    }
+    #contacts p {
+        font-size: 1.2em;
+    }
+}
