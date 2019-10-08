@@ -35,12 +35,12 @@ header {
     display: flex;
     flex-direction: column;
 }
-.page-title__figureitems{
+.page-title__items{
     display: flex;
     background-color: #e3e0cf;
     margin: 0px;
 }
-.page-title__figureitems img {
+.page-title__pics {
     margin: 10px auto;
     width: 50%;
 }
@@ -52,7 +52,7 @@ header {
     text-align: center;
     font-family: "Roboto", sans-serif;
 }
-.page-title__figcaption {
+.page-title__subt {
     padding: 10px;
     font-size: 0.8em;
     border-block-start: 1px solid #c5d5cb;
@@ -62,7 +62,7 @@ header {
     font-family: "Roboto", sans-serif;
     color: rgba(0,0,0, 0.5);
 }
-.page-title__figcaption a {
+.page-title__author {
     text-decoration: none;
     cursor: pointer;
     color: black;
@@ -70,31 +70,31 @@ header {
 main {
     margin-block-start: 5px;
 }
-#page-post {
+.page-post {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.post {
+.page-post__post {
     width: 44%;
     padding: 5px 5px;
     border: 1px solid #c5d5cb;
     margin: 5px;
 }
-.post figure {
+.page-post__items {
     margin: 0 auto;
 }
-.post img {
+.page-post__pics {
     width: 100%;
 }
-.post p {
+.page-post__text{
     display: none;
     text-align: left;
     color: rgba(0,0,0, 0.5)
 }
-#page-post .post h2 {
-    font-size: 1em;
+.art__name {
+    font-size: 1.2em;
     text-align: left;
     font-family: "Roboto", sans-serif;
     color: rgba(0,0,0, 0.5)
@@ -153,7 +153,7 @@ main {
         font-size: 0.9em;
         padding: 11px;
     }
-    #page-post .post h2 {
+    .art__name {
         font-size: 1.2em;
     }
     #related-content h4 {
@@ -179,7 +179,7 @@ main {
     .page-title__author {
         font-size: 1em;
     }
-    #page-post .post h2 {
+    .art__name {
         font-size: 1.4em;
     }
     #related-content h4 {
@@ -193,21 +193,21 @@ main {
     }
 }
 @media only screen and (min-width: 1024px) {
-    .page-title__figureitems img{
+    .page-title__pics{
         width: 200px;
         height: 200px;
         margin: 60px 8% 10px;
     }
-    .post {
+    .page-post__post {
         width: 31%;
     }
     .page-title__name {
         font-size: 2.6em;
     }
     .page-title__author {
-        font-size: 1.1em;
+        font-size: 1.2em;
     }
-    #page-post .post h2 {
+    .art__name {
         font-size: 1.6em;
     }
     #related-content h4 {
@@ -235,21 +235,21 @@ main {
     .navigation__menu img {
         display: none;
     }
-    .page-title__figureitmes img {
+    .page-title__pics {
         width: 170px;
         height: 170px;
         margin: 10px 4% 10px;
     }
-    .post {
+    .page-post__post {
         width: 11%;
     }
     .page-title__name {
-        font-size: 1.3em;
+        font-size: 1.4em;
     }
     .page-title__author {
         font-size: 0.9em;
     }
-    #page-post .post h2 {
+    .art__name {
         font-size: 1.1em;
     }
     #related-content h4 {
