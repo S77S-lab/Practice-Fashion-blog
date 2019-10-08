@@ -14,15 +14,15 @@ nav {
     background-color: #9fa8a3;
     height: 40px;
 }
-#navigation{
+.navigation{
     float: right;
     padding: 5px 10px;
     margin: auto;
 }
-#menu:hover {
+.navigation__menu:hover {
     cursor: pointer;
 }
-#navigation li {
+.navigation li {
     display: none;
 }
 
@@ -31,20 +31,20 @@ nav {
 header {
     margin-block-start: 40px;
 }
-#page-title {
+.page-title {
     display: flex;
     flex-direction: column;
 }
-#page-title figure {
+.page-title__figureitems{
     display: flex;
     background-color: #e3e0cf;
     margin: 0px;
 }
-#page-title figure img {
+.page-title__figureitems img {
     margin: 10px auto;
     width: 50%;
 }
-#page-title h1 {
+.page-title__name {
     padding: 5px;
     margin: 0;
     color: rgba(0,0,0, 0.8);
@@ -52,7 +52,7 @@ header {
     text-align: center;
     font-family: "Roboto", sans-serif;
 }
-#page-title figcaption {
+.page-title__figcaption {
     padding: 10px;
     font-size: 0.8em;
     border-block-start: 1px solid #c5d5cb;
@@ -62,7 +62,7 @@ header {
     font-family: "Roboto", sans-serif;
     color: rgba(0,0,0, 0.5);
 }
-#page-title figcaption a {
+.page-title__figcaption a {
     text-decoration: none;
     cursor: pointer;
     color: black;
@@ -131,10 +131,10 @@ main {
     .post {
         width: 43%;
     }
-    #page-title h1 {
+    .page-title__name {
         font-size: 1.2em;
     }
-    #page-title figcaption {
+    .page-title_author {
         font-size: 0.7em;
         padding: 8px;
     }
@@ -146,10 +146,10 @@ main {
     }
 }
 @media only screen and (min-width: 414px) {
-    #page-title h1 {
+    .page-title__name {
         font-size: 1.6em;
     }
-    #page-title figcaption {
+    .page-title__author {
         font-size: 0.9em;
         padding: 11px;
     }
@@ -170,13 +170,13 @@ main {
     .post {
         width: 47%;
     } 
-    #page-title figure img {
+    .page-title__figure {
         width: 45%;
     }
-    #page-title h1 {
+    .page-title__name {
         font-size: 2.6em;
     }
-    #page-title figcaption {
+    .page-title__author {
         font-size: 1em;
     }
     #page-post .post h2 {
@@ -193,7 +193,7 @@ main {
     }
 }
 @media only screen and (min-width: 1024px) {
-    #page-title figure img {
+    .page-title__figureitems img{
         width: 200px;
         height: 200px;
         margin: 60px 8% 10px;
@@ -201,10 +201,10 @@ main {
     .post {
         width: 31%;
     }
-    #page-title h1 {
+    .page-title__name {
         font-size: 2.6em;
     }
-    #page-title figcaption {
+    .page-title__author {
         font-size: 1.1em;
     }
     #page-post .post h2 {
@@ -221,21 +221,21 @@ main {
     }
 }
 @media only screen and (min-width: 1280px) {
-    #navigation li {
+    .navigation li {
         display: inline;
         padding-right: 0.8em;
     }
-    #navigation li a {
+    .navigation li a {
         text-decoration: none;
         color: black;
     }
-    #navigation #dark img {
+    .navigation__dark img {
         padding-right: 10px;
     }
-    #menu img {
+    .navigation__menu img {
         display: none;
     }
-    #page-title figure img {
+    .page-title__figureitmes img {
         width: 170px;
         height: 170px;
         margin: 10px 4% 10px;
@@ -243,10 +243,10 @@ main {
     .post {
         width: 11%;
     }
-    #page-title h1 {
+    .page-title__name {
         font-size: 1.3em;
     }
-    #page-title figcaption {
+    .page-title__author {
         font-size: 0.9em;
     }
     #page-post .post h2 {
