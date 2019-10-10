@@ -20,11 +20,35 @@ body {
     padding: 5px 10px;
     margin: auto;
 }
-.navigation__menu:hover {
-    cursor: pointer;
+.navigation__menubtn:hover, .navigation__menubtn:focus {
+    background-color: rgb(159, 168, 163);
 }
-.navigation__l {
+.navigation__menu {
+    position: relative;
+    display: inline-block;
+}
+.navigation__menu__content {
     display: none;
+    position: absolute;
+    right: 10px;
+    background-color: #e3e0cf;
+    min-width: 170px;
+    box-shadow: 0px 8px 16px 8px rgba(0,0,0,0.3);
+    z-index: 1;
+}
+.navigation__link {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.navigation__link:hover {
+    text-decoration: underline;
+}
+.show {
+    display: block;
 }
 
 /* Header Style */
@@ -127,6 +151,7 @@ main {
 }
 .contacts__l:hover {
     cursor: pointer;
+    text-decoration: underline;
 }
 @media only screen and (max-width: 320px) {
     .page-post__p {
@@ -222,6 +247,12 @@ main {
     }
 }
 @media only screen and (min-width: 1280px) {
+    main {
+        padding: 0 90px;
+    }
+    /*.navigation__menu__content {
+        display: inline;
+    }*/
     .navigation__l {
         display: inline;
         padding-right: 0.8em;
@@ -233,16 +264,16 @@ main {
     .navigation__darkpic {
         padding-right: 10px;
     }
-    .navigation__menupic {
+    /*.navigation__menubtn {
         display: none;
-    }
+    } */
     .page-title__pic {
         width: 170px;
         height: 170px;
         margin: 10px 4% 10px;
     }
     .page-post__p {
-        width: 11%;
+        width: 20%;
     }
     .page-title__name {
         font-size: 1.4em;
