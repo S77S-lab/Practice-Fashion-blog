@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Everyday with Isa</title>
+    <link rel="stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="main.js" async></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400i,500i,700,700i|Source+Code+Pro:400,600,600i&display=swap" rel="stylesheet">
@@ -14,8 +15,8 @@
         <a class="navigation__light"><img class="navigation__lightpic" src="./images/light_mode.png"></a>
         <a class="navigation__dark"><img class="navigation__darkpic" src="./images/dark_mode.png"></a>
         <div class="navigation__menu">
-          <button onclick="myFunction()" class="navigation__menubtn"><img class="navigation__menupic" src="./images/list.png" alt="menu"></button>
-          <div class="navigation__menu__content">
+          <button onclick="btnFunction()" class="navigation__menubtn"><img class="navigation__menupic" src="./images/list.png" alt="menu"></button>
+          <div id="menu-content" class="navigation__menu__content">
             <li class="navigation__l"><a class="navigation__link" href="#page-post__guide">Guide</a></li>
             <li class="navigation__l"><a class="navigation__link" href="#page-post__tickets">Tickets</a></li>
             <li class="navigation__l"><a class="navigation__link" href="#page-post__dressing">Dressing</a></li>
