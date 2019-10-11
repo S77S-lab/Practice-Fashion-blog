@@ -48,6 +48,9 @@ body {
     display: block;
     text-align: left;
 }
+.navigation__l {
+    display: inline;
+}
 .navigation__link:hover {
     background-color: rgb(159, 168, 163, 0.7);
 }
@@ -254,11 +257,14 @@ main {
     main {
         padding: 0 90px;
     }
+    /*.navigation__menubtn {
+        display: none;
+    } */
+
     /*.navigation__menu__content {
         display: inline;
     }*/
     .navigation__l {
-        display: inline;
         padding-right: 0.8em;
     }
     .navigation__link {
@@ -268,9 +274,6 @@ main {
     .navigation__darkpic {
         padding-right: 10px;
     }
-    /*.navigation__menubtn {
-        display: none;
-    } */
     .page-title__pic {
         width: 170px;
         height: 170px;
