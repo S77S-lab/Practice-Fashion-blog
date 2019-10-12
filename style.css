@@ -13,23 +13,40 @@ body {
     z-index: 10;
     top: 0px;
     background-color: #9fa8a3;
-    height: 40px;
+    height: 42px;
 }
 .navigation__list{
     float: right;
-    padding: 5px 10px;
-    margin: auto;
+    height: 42px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 10px;
+}
+.navigation__dark,
+.navigation__light {
+    position: relative;
+    top: 4px;
+}
+.navigation__lightpic, .navigation__darkpic,
+.navigation__menupic {
+    position: relative;
+    margin: 0px;
 }
 .navigation__menubtn {
     background-color: #9fa8a3;
     border-color: #9fa8a3;
+    height: 25px;
+    padding: 0px;
+    border-width: 0px;
 }
 .navigation__menubtn:hover, .navigation__menubtn:focus {
     background-color: rgb(159, 168, 163);
 }
 .navigation__menu {
     position: relative;
-    display: inline-block;
+    top: 4px;
+    display: inline;
+    
 }
 .navigation__menu__content {
     display: none;
@@ -52,7 +69,7 @@ body {
     display: inline;
 }
 .navigation__link:hover {
-    background-color: rgb(159, 168, 163, 0.7);
+    background-color: rgb(159, 168, 163);
 }
 .show {
     display: block;
@@ -257,22 +274,34 @@ main {
     main {
         padding: 0 90px;
     }
-    /*.navigation__menubtn {
+    .navigation__dark, .navigation__light {
+        position: relative;
+        top: 4px;
+    }
+    .navigation__darkpic,
+    .navigation__lightpic {
+        position: relative;
+        margin: 0px;
+    }
+    .navigation__menu {
+        position: relative;
+    }
+    .navigation__menubtn {
         display: none;
-    } */
-
-    /*.navigation__menu__content {
-        display: inline;
-    }*/
+    }
+    .navigation__menu__content {
+        display: inline-flex;
+        position: relative;
+        background-color: transparent;
+        box-shadow: none;
+        right: auto;
+    }
     .navigation__l {
         padding-right: 0.8em;
     }
     .navigation__link {
         text-decoration: none;
         color: black;
-    }
-    .navigation__darkpic {
-        padding-right: 10px;
     }
     .page-title__pic {
         width: 170px;
