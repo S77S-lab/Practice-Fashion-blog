@@ -274,18 +274,6 @@ main {
     main {
         padding: 0 90px;
     }
-    .navigation__dark, .navigation__light {
-        position: relative;
-        top: 4px;
-    }
-    .navigation__darkpic,
-    .navigation__lightpic {
-        position: relative;
-        margin: 0px;
-    }
-    .navigation__menu {
-        position: relative;
-    }
     .navigation__menubtn {
         display: none;
     }
