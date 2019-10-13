@@ -143,7 +143,7 @@ main {
     color: rgba(0,0,0, 0.5)
 }
 .art__name {
-    font-size: 1.2em;
+    font-size: 1.1em;
     text-align: left;
     font-family: "Roboto", sans-serif;
     color: rgba(0,0,0, 0.5)
@@ -151,7 +151,7 @@ main {
 .related-content__title {
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 1em;
+    font-size: 1.1em;
     text-align: center;
     font-family: "Roboto", sans-serif;
     color: rgba(0,0,0,);
@@ -164,7 +164,7 @@ main {
 }
 .contacts__add {
     text-align: center;
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-style: italic;
     margin: 5px;
     padding: 10px;
@@ -179,41 +179,7 @@ main {
 }
 @media only screen and (max-width: 320px) {
     .page-post__p {
-        width: 43%;
-    }
-    .page-title__name {
-        font-size: 1.2em;
-    }
-    .page-title_author {
-        font-size: 0.7em;
-        padding: 8px;
-    }
-    .related-content__title {
-        font-size: 0.9em;
-    }
-    .related-content__ext {
-        font-size: 0.8em;
-    }
-}
-@media only screen and (min-width: 414px) {
-    .page-title__name {
-        font-size: 1.6em;
-    }
-    .page-title__author {
-        font-size: 0.9em;
-        padding: 11px;
-    }
-    .art__name {
-        font-size: 1.2em;
-    }
-    .related-content__title {
-        font-size: 1.2em; 
-    }
-    .related-content__ext {
-        font-size: 1.1em;
-    }
-    .contacts__add {
-        font-size: 0.9em;
+        width: 73%;
     }
 }
 @media only screen and (min-width: 768px) {
@@ -224,16 +190,19 @@ main {
         width: 45%;
     }
     .page-title__name {
-        font-size: 2.6em;
+        font-size: 2.3em;
+    }
+    .page-title__subt {
+        font-size: 1.1em;
     }
     .page-title__author {
         font-size: 1em;
     }
     .art__name {
-        font-size: 1.4em;
+        font-size: 1.5em;
     }
     .related-content__title {
-        font-size: 1.4em; 
+        font-size: 1.5em; 
     }
     .related-content__ext {
         font-size: 1.3em;
@@ -244,24 +213,21 @@ main {
 }
 @media only screen and (min-width: 1024px) {
     .page-title__pic{
-        width: 200px;
-        height: 200px;
-        margin: 10px 4% 10px;
+        width: 250px;
+        height: 250px;
+        margin: 10px 6% 10px;
     }
     .page-post__p {
-        width: 24%;
+        width: 36%;
     }
     .page-title__name {
-        font-size: 2.6em;
-    }
-    .page-title__author {
-        font-size: 1.2em;
+        font-size: 2.1em;
     }
     .art__name {
-        font-size: 1.6em;
+        font-size: 1.7em;
     }
     .related-content__title {
-        font-size: 1.6em; 
+        font-size: 1.7em; 
     }
     .related-content__ext {
         font-size: 1.4em;
@@ -292,24 +258,24 @@ main {
         color: black;
     }
     .page-title__pic {
-        width: 170px;
-        height: 170px;
+        width: 150px;
+        height: 150px;
         margin: 10px 4% 10px;
     }
     .page-post__p {
-        width: 20%;
+        width: 16%;
     }
     .page-title__name {
-        font-size: 1.4em;
+        font-size: 1.8em;
     }
-    .page-title__author {
-        font-size: 0.9em;
+    .page-title__subt {
+        font-size: 1.2em;
     }
     .art__name {
-        font-size: 1.1em;
+        font-size: 1.2em;
     }
     .related-content__title {
-        font-size: 1.1em; 
+        font-size: 1.2em; 
     }
     .related-content__ext {
         font-size: 1em;
