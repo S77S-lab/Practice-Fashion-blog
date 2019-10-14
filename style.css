@@ -91,7 +91,7 @@ header {
 }
 .page-title__pic {
     margin: 10px auto;
-    width: 50%;
+    width: 48%;
 }
 .page-title__name {
     padding: 5px;
@@ -130,6 +130,9 @@ main {
     border: 1px solid #c5d5cb;
     margin: 5px;
 }
+/* #guide {
+    width: 100%;
+} */
 .page-post__item {
     margin: 0 auto;
 }
