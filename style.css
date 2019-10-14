@@ -132,7 +132,11 @@ main {
     border: 1px solid #c5d5cb;
     margin: 5px;
 }
-/* #guide {
+/* .page-post__guide,
+.page-post__tickets,
+.page-post__dressing {
+    display: flex:
+    flex-flow: column:
     width: 100%;
 } */
 .page-post__item {
@@ -141,10 +145,23 @@ main {
 .page-post__pic {
     width: 100%;
 }
-.page-post__text{
+.page-post__text__guide {
     display: none;
     text-align: left;
     color: rgba(0,0,0, 0.5)
+/* display: block; */
+}
+.page-post__text__tickets {
+    display: none;
+    text-align: left;
+    color: rgba(0,0,0, 0.5)
+/* display: block; */
+}
+.page-post__text__dressing{
+    display: none;
+    text-align: left;
+    color: rgba(0,0,0, 0.5)
+/* display: block; */
 }
 .art__name {
     font-size: 1.1em;
