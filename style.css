@@ -124,7 +124,9 @@ main {
     justify-content: space-evenly;
 }
 
-.page-post__p {
+.page-post__guide,
+.page-post__tickets,
+.page-post__dressing {
     width: 44%;
     padding: 5px 5px;
     border: 1px solid #c5d5cb;
@@ -180,7 +182,9 @@ main {
     text-decoration: underline;
 }
 @media only screen and (max-width: 320px) {
-    .page-post__p {
+.page-post__guide,
+.page-post__tickets,
+.page-post__dressing {
         width: 73%;
     }
 }
@@ -219,7 +223,9 @@ main {
         height: 250px;
         margin: 10px 6% 10px;
     }
-    .page-post__p {
+    .page-post__guide,
+    .page-post__tickets,
+    .page-post__dressing {
         width: 36%;
     }
     .page-title__name {
@@ -264,7 +270,9 @@ main {
         height: 150px;
         margin: 10px 4% 10px;
     }
-    .page-post__p {
+    .page-post__guide,
+    .page-post__tickets,
+    .page-post__dressing {
         width: 16%;
     }
     .page-title__name {
