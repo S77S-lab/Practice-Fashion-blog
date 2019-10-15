@@ -14,3 +14,22 @@ window.onclick = function(event) {
       }
     }
   }
+/* view posts */
+function viewPostGuide() {
+  var post = document.getElementsByClassName("page-post__guide");
+  var text = document.getElementsByClassName("page-post__text__guide");
+  post[0].classList.toggle("show__post");
+  text[0].classList.toggle("show__post__text");
+}
+function viewPostTickets() {
+  var post = document.getElementsByClassName("page-post__tickets");
+  var text = document.getElementsByClassName("page-post__text__tickets");
+  post[0].classList.toggle("show__post");
+  text[0].classList.toggle("show__post__text");
+}
+function viewPostDressing() {
+  var post = document.getElementsByClassName("page-post__dressing");
+  var text = document.getElementsByClassName("page-post__text__dressing");
+  post[0].classList.toggle("show__post");
+  text[0].classList.toggle("show__post__text");
+}

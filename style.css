@@ -135,8 +135,8 @@ main {
 /* .page-post__guide,
 .page-post__tickets,
 .page-post__dressing {
-    display: flex:
-    flex-flow: column:
+    display: flex;
+    flex-flow: column;
     width: 100%;
 } */
 .page-post__item {
@@ -162,6 +162,14 @@ main {
     text-align: left;
     color: rgba(0,0,0, 0.5)
 /* display: block; */
+}
+.show__post {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+.show__post__text {
+    display: block;
 }
 .art__name {
     font-size: 1.1em;
