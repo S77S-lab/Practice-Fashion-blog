@@ -71,7 +71,7 @@ body {
 .navigation__link:hover {
     background-color: rgb(159, 168, 163);
 }
-.show {
+.show__menu {
     display: block;
 }
 

@@ -1,6 +1,6 @@
-/* button functionality in navigation */
+/* menu button */
 function btnFunction() {
-document.getElementById("menu-content").classList.toggle("show");
+document.getElementById("menu-content").classList.toggle("show__menu");
 }
 window.onclick = function(event) {
     if (!event.target.matches('.navigation__menupic')) {
@@ -8,8 +8,8 @@ window.onclick = function(event) {
       var i;
       for (i = 0; i < menu.length; i++) {
         var openMenu = menu[i];
-        if (openMenu.classList.contains('show')) {
-          openMenu.classList.remove('show');
+        if (openMenu.classList.contains('show__menu')) {
+          openMenu.classList.remove('show__menu');
         }
       }
     }
