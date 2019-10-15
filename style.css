@@ -300,10 +300,14 @@ main {
         height: 150px;
         margin: 10px 4% 10px;
     }
+    .page-post {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
     .page-post__guide,
     .page-post__tickets,
     .page-post__dressing {
-        width: 16%;
+        width: 12%;
     }
     .page-title__name {
         font-size: 1.8em;
