@@ -127,18 +127,11 @@ main {
 .page-post__guide,
 .page-post__tickets,
 .page-post__dressing {
-    width: 44%;
+    width: 100%;
     padding: 5px 5px;
     border: 1px solid #c5d5cb;
     margin: 5px;
 }
-/* .page-post__guide,
-.page-post__tickets,
-.page-post__dressing {
-    display: flex;
-    flex-flow: column;
-    width: 100%;
-} */
 .page-post__item {
     margin: 0 auto;
 }
@@ -149,19 +142,16 @@ main {
     display: none;
     text-align: left;
     color: rgba(0,0,0, 0.5)
-/* display: block; */
 }
 .page-post__text__tickets {
     display: none;
     text-align: left;
     color: rgba(0,0,0, 0.5)
-/* display: block; */
 }
 .page-post__text__dressing{
     display: none;
     text-align: left;
     color: rgba(0,0,0, 0.5)
-/* display: block; */
 }
 .show__post {
     display: flex;
@@ -210,7 +200,7 @@ main {
 .page-post__guide,
 .page-post__tickets,
 .page-post__dressing {
-        width: 73%;
+        width: 100%;
     }
 }
 @media only screen and (min-width: 768px) {
@@ -220,6 +210,9 @@ main {
     .page-title__figure {
         width: 45%;
     }
+    .page-title__pic {
+        width: 30%;
+    }
     .page-title__name {
         font-size: 2.3em;
     }
@@ -228,6 +221,15 @@ main {
     }
     .page-title__author {
         font-size: 1em;
+    }
+    .page-post {
+        margin-top: 40px;
+        margin-bottom: 45px;
+    }
+    .page-post__guide,
+    .page-post__tickets,
+    .page-post__dressing {
+        width: 30%;
     }
     .art__name {
         font-size: 1.5em;
@@ -244,14 +246,17 @@ main {
 }
 @media only screen and (min-width: 1024px) {
     .page-title__pic{
-        width: 250px;
-        height: 250px;
         margin: 10px 6% 10px;
+        width: 28%;
+    }
+    .page-post {
+        margin-top: 60px;
+        margin-bottom: 205px;
     }
     .page-post__guide,
     .page-post__tickets,
     .page-post__dressing {
-        width: 36%;
+        width: 31%;
     }
     .page-title__name {
         font-size: 2.1em;
