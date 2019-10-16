@@ -157,6 +157,14 @@ main {
     display: flex;
     flex-flow: column;
     width: 100%;
+    position: fixed;
+    background: white;
+    top: 40px;
+    bottom: 0px;
+    margin: 0px;
+    right: 0px;
+    left: 0px;
+    overflow: scroll;
 }
 .show__post__text {
     display: block;
