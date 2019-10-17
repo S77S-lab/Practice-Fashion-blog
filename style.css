@@ -241,6 +241,14 @@ main {
         width: 97%;
         margin: 5px;
     }
+    .page-post__pic{
+        width: 200px;
+    }
+    .page-post__text__guide,
+    .page-post__text__tickets,
+    .page-post__text__dressing {
+        display: block;
+    }
     .art__name {
         font-size: 1.5em;
     }
@@ -268,6 +276,14 @@ main {
     .page-post__dressing {
         width: 98%;
     }
+    .page-post__pic{
+        width: 200px;
+    }
+    .page-post__text__guide,
+    .page-post__text__tickets,
+    .page-post__text__dressing {
+        display: block;
+    }
     .page-title__name {
         font-size: 2.1em;
     }
@@ -286,7 +302,7 @@ main {
 }
 @media only screen and (min-width: 1280px) {
     main {
-        padding: 0 90px;
+        padding: 0 150px;
     }
     .navigation__menubtn {
         display: none;
@@ -317,7 +333,15 @@ main {
     .page-post__guide,
     .page-post__tickets,
     .page-post__dressing {
-        width: 12%;
+        width: 100%;
+    }
+    .page-post__pic{
+        width: 200px;
+    }
+    .page-post__text__guide,
+    .page-post__text__tickets,
+    .page-post__text__dressing {
+        display: block;
     }
     .page-title__name {
         font-size: 1.8em;
