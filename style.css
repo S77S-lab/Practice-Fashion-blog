@@ -227,13 +227,19 @@ main {
         font-size: 1em;
     }
     .page-post {
+        display: block;
         margin-top: 40px;
         margin-bottom: 45px;
+    }
+    .page-post__item {
+        margin: 0px 15px;
     }
     .page-post__guide,
     .page-post__tickets,
     .page-post__dressing {
-        width: 30%;
+        display: flex;
+        width: 97%;
+        margin: 5px;
     }
     .art__name {
         font-size: 1.5em;
@@ -254,13 +260,13 @@ main {
         width: 28%;
     }
     .page-post {
-        margin-top: 60px;
-        margin-bottom: 205px;
+        margin-top: 40px;
+        margin-bottom: 20px;
     }
     .page-post__guide,
     .page-post__tickets,
     .page-post__dressing {
-        width: 31%;
+        width: 98%;
     }
     .page-title__name {
         font-size: 2.1em;
