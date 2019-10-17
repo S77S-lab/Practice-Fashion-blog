@@ -21,6 +21,7 @@ function viewPostGuide() {
   postView[0].classList.toggle("show__post");
   textView[0].classList.toggle("show__post__text");
 }
+
 function viewPostTickets() {
   var postView = document.getElementsByClassName("page-post__tickets");
   var textView = document.getElementsByClassName("page-post__text__tickets");

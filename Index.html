@@ -17,11 +17,11 @@
         <div class="navigation__menu">
           <button onclick="btnFunction()" class="navigation__menubtn"><img class="navigation__menupic" src="./images/list.png" alt="menu"></button>
           <div id="menu-content" class="navigation__menu__content">
-            <li class="navigation__l"><a class="navigation__link" href="#page-post__guide">Guide</a></li>
-            <li class="navigation__l"><a class="navigation__link" href="#page-post__tickets">Tickets</a></li>
-            <li class="navigation__l"><a class="navigation__link" href="#page-post__dressing">Dressing</a></li>
-            <li class="navigation__l"><a class="navigation__link" href="#related-content__title">Related Content</a></li>
-            <li class="navigation__l"><a class="navigation__link" href="#contacts__add">Contacts</a></li>
+            <li class="navigation__l"><a class="navigation__link" href="#guide">Guide</a></li>
+            <li class="navigation__l"><a class="navigation__link" href="#tickets">Tickets</a></li>
+            <li class="navigation__l"><a class="navigation__link" href="#dressing">Dressing</a></li>
+            <li class="navigation__l"><a class="navigation__link" href="#related-content">Related Content</a></li>
+            <li class="navigation__l"><a class="navigation__link" href="#contact">Contacts</a></li>
           </div>
         </div>
       </ul>
@@ -37,7 +37,7 @@
     </header>
     <main>
       <section class="page-post">
-        <div onclick="viewPostGuide()" class="page-post__guide">
+        <div onclick="viewPostGuide()" class="page-post__guide" id="guide">
           <figure class="page-post__item"><img class="page-post__pic" src="https://s3.amazonaws.com/codecademy-content/courses/learn-html/elements-and-structure/image-one.jpeg"/>
           </figure>
           <article class="page-post__article">  
@@ -46,7 +46,7 @@
             can be both amazingly fun & incredibly overwhelming, especially if youve never been. Luckily, Im here to give you an insiders guide and make your first show a pleasurable experience. By taking my tips and tricks, and following your gut, you'll have an unforgettable experience!can be both amazingly fun & incredibly overwhelming, especially if youve never been. Luckily, Im here to give you an insiders guide and make your first show a pleasurable experience. By taking my tips and tricks, and following your gut, you'll have an unforgettable experience!</p>
           </article>
         </div>        
-        <div onclick="viewPostTickets()" class="page-post__tickets">
+        <div onclick="viewPostTickets()" class="page-post__tickets" id="tickets">
           <figure class="page-post__item"><img class="page-post__pic" src="https://s3.amazonaws.com/codecademy-content/courses/learn-html/elements-and-structure/image-two.jpeg"/>
           </figure>
           <article class="page-post__article">
@@ -54,7 +54,7 @@
             <p class="page-post__text__tickets">If youre lucky or connected you can get an invite, sans the price tag. But I wasnt so lucky or connected my first 2 years so Im here to help you out. First, plan out which shows are most important to you and make a schedule and this is a biggie: SET A BUDGET. If youre worrying about blowing your cash the whole time you wont have fun. Then check out prices, days, and times and prioritize the designers you want to see most. Lastly, purchase your tickets and get excited!</p>
           </article>
         </div>
-        <div onclick="viewPostDressing()" class="page-post__dressing">
+        <div onclick="viewPostDressing()" class="page-post__dressing" id="dressing">
           <figure class="page-post__item"><img class="page-post__pic" src="https://s3.amazonaws.com/codecademy-content/courses/learn-html/elements-and-structure/image-three.jpeg"/>
           </figure>
           <article class="page-post__article">
@@ -64,7 +64,7 @@
         </div> 
       </section>
       <aside class="related-content">  
-        <h4 class="related-content__title">Related Content</h4>
+        <h4 class="related-content__title" id="related-content">Related Content</h4>
         <ul class="related-content__ext">
           <li>How To Style Boyfriend Jeans</li>
           <li>When Print Is Too Much</li>
@@ -74,7 +74,7 @@
       </aside>      
     </main>
     <footer>
-      <div class="contacts">
+      <div class="contacts" id="contact">
         <p class="contacts__add"><a class="contacts__l" href="mailto:isa@fashionblog.com"><strong>email:</strong> isa@fashionblog.com</a> | <strong>phone:</strong>917-555-1098 | <strong>address:</strong>371 284th St, New York, NY, 10001</p>
       </div>
     </footer>
