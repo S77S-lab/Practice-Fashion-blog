@@ -3,7 +3,8 @@ html {
     font-size: 16px;
 }
 body {
-    margin: auto;
+    margin: 0px;
+    padding: 0px;
     font-family: 'Source Code Pro', monospace; 
 }
 /* Navigation Style */
@@ -156,14 +157,6 @@ main {
 .show__post {
     display: flex;
     flex-flow: column;
-    width: 100%;
-    position: fixed;
-    background: white;
-    top: 40px;
-    bottom: 0px;
-    margin: 0px;
-    right: 0px;
-    left: 0px;
     overflow: scroll;
 }
 .show__post__text {
@@ -209,6 +202,9 @@ main {
 .page-post__tickets,
 .page-post__dressing {
         width: 100%;
+    }
+.show__post__text {
+    max-width: 315px;
     }
 }
 @media only screen and (min-width: 768px) {
