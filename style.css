@@ -124,9 +124,6 @@ main {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-#guide {
-    top: 42px;
-}
 .page-post__guide,
 .page-post__tickets,
 .page-post__dressing {
@@ -160,6 +157,11 @@ main {
     display: flex;
     flex-flow: column;
     overflow: scroll;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 42px;
+    overflow: scroll;
+    background: white;
 }
 .show__post__text {
     display: block;
@@ -169,6 +171,10 @@ main {
     text-align: left;
     font-family: "Roboto", sans-serif;
     color: rgba(0,0,0, 0.5)
+}
+.related-content {
+    height: 180px;
+    margin-top: 42px;
 }
 .related-content__title {
     margin-top: 10px;
@@ -209,7 +215,16 @@ main {
     max-width: 315px;
     }
 }
+@media only screen and (min-width: 375px) {
+    body {
+        height: 2420px;
+    }
+}
+
 @media only screen and (min-width: 768px) {
+    body {
+        height: 2290px;
+    }
     .post {
         width: 47%;
     } 
@@ -265,6 +280,9 @@ main {
     }
 }
 @media only screen and (min-width: 1024px) {
+    body {
+        height: 2500px;
+    }
     .page-title__pic{
         margin: 10px 6% 10px;
         width: 28%;
@@ -303,6 +321,9 @@ main {
     }
 }
 @media only screen and (min-width: 1280px) {
+    body {
+        height: 1977px;
+    }
     main {
         padding: 0 150px;
     }
@@ -335,7 +356,7 @@ main {
     .page-post__guide,
     .page-post__tickets,
     .page-post__dressing {
-        width: 100%;
+        
     }
     .page-post__pic{
         width: 200px;

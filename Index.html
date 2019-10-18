@@ -17,10 +17,10 @@
         <div class="navigation__menu">
           <button onclick="btnFunction()" class="navigation__menubtn"><img class="navigation__menupic" src="./images/list.png" alt="menu"></button>
           <div id="menu-content" class="navigation__menu__content">
-            <li class="navigation__l"><a class="navigation__link" href="#guide">Guide</a></li>
-            <li class="navigation__l"><a class="navigation__link" href="#tickets">Tickets</a></li>
-            <li class="navigation__l"><a class="navigation__link" href="#dressing">Dressing</a></li>
-            <li class="navigation__l"><a class="navigation__link" href="#related-content">Related Content</a></li>
+            <li class="navigation__l"><a class="navigation__link" onclick="viewPostGuide()" href="#guide">Guide</a></li>
+            <li class="navigation__l"><a class="navigation__link" onclick="viewPostTickets()" href="#tickets">Tickets</a></li>
+            <li class="navigation__l"><a class="navigation__link" onclick="viewPostDressing()" href="#dressing">Dressing</a></li>
+            <li class="navigation__l"><a class="navigation__link" href="#relcontent">Related Content</a></li>
             <li class="navigation__l"><a class="navigation__link" href="#contact">Contacts</a></li>
           </div>
         </div>
@@ -63,8 +63,8 @@
           </article>
         </div> 
       </section>
-      <aside class="related-content">  
-        <h4 class="related-content__title" id="related-content">Related Content</h4>
+      <aside class="related-content" id="relcontent">  
+        <h4 class="related-content__title" >Related Content</h4>
         <ul class="related-content__ext">
           <li>How To Style Boyfriend Jeans</li>
           <li>When Print Is Too Much</li>
