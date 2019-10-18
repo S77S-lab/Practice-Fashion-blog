@@ -217,7 +217,7 @@ main {
 }
 @media only screen and (min-width: 375px) {
     body {
-        height: 2420px;
+        height: 2400px;
     }
 }
 
@@ -322,7 +322,7 @@ main {
 }
 @media only screen and (min-width: 1280px) {
     body {
-        height: 1977px;
+        height: 1900px;
     }
     main {
         padding: 0 150px;
