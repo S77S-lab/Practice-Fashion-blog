@@ -25,7 +25,6 @@ window.onload = function() {
 function countUpFromTime(countFrom, countup) {
   countFrom = new Date(countFrom).getTime();
   var now = new Date(),
-      countFrom = new Date(countFrom),
       timeDifference = (now - countFrom);
     
   var secondsInADay = 60 * 60 * 1000 * 24,

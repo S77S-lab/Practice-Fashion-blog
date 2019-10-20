@@ -11,7 +11,7 @@
 * Create a time stamp to view next to the author's name 
 * 
 
-#2 As a user that uses the accessibility features of the window. I would like to be able to hear description of each article as I’m scrolling through the list of articles.
+#2 As a user that uses the accessibility features of the window, I would like to be able to hear description of each article as I’m scrolling through the list of articles.
 
 * Create a function starting to play the narrator reading the titles of articles while scrolling, use the accessibility features of the browser 
 
