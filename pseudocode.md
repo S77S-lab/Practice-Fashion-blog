@@ -8,7 +8,6 @@
 * Create a view of the whole article, using a function in js, applying on-click event, while click the image of the article
 * Create a pop-up nav unordered list menu, applying on-click event functionality, linking it to the guide, ticket, dressing, related content and contacts 
 * Changing the view of cursor to pointer while mouse hovering over the name of author, by js function
-* Changing the view of cursor to pointer while mouse hovering over menue, by js function
 * Create a time stamp to view next to the author's name 
 * 
 

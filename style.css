@@ -111,9 +111,8 @@ header {
     text-align: center;
     color: rgba(0,0,0, 0.5);
 }
-.page-title__author {
+#page-title__author {
     text-decoration: none;
-    cursor: pointer;
     color: black;
 }
 main {
@@ -240,7 +239,7 @@ main {
     .page-title__subt {
         font-size: 1.1em;
     }
-    .page-title__author {
+    #page-title__author {
         font-size: 1em;
     }
     .page-post {

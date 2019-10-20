@@ -14,6 +14,10 @@ window.onclick = function(event) {
       }
     }
   }
+/* change cursor */
+function changeCursorFunction(){
+  document.getElementById("page-title__author").style = "cursor:pointer";
+}
 /* view posts */
 function viewPostGuide() {
   var postView = document.getElementsByClassName("page-post__guide");
