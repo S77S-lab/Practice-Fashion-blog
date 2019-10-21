@@ -13,7 +13,7 @@
 
 #2 As a user that uses the accessibility features of the window, I would like to be able to hear description of each article as I’m scrolling through the list of articles.
 
-* Create a function starting to play the narrator reading the titles of articles while scrolling, use the accessibility features of the browser 
+* Create a text-to-speech function starting to play the narrator reading the titles of articles while scrolling, use the accessibility features of the browser 
 
 #3 As a user I would like to click the fashion blogs email and automatically have my default email client open with the “To” field populated with the fashion blogs email.
 

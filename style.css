@@ -207,6 +207,9 @@ main {
     cursor: pointer;
     text-decoration: underline;
 }
+em {
+    font-weight: 600;
+}
 @media only screen and (max-width: 320px) {
 .page-title__subt {
     line-height: 1.4;
@@ -357,11 +360,6 @@ main {
     .page-post {
         margin-top: 10px;
         margin-bottom: 15px;
-    }
-    .page-post__guide,
-    .page-post__tickets,
-    .page-post__dressing {
-        
     }
     .page-post__pic{
         width: 200px;
