@@ -172,7 +172,8 @@ main {
     font-size: 1.1em;
     text-align: left;
     font-family: "Roboto", sans-serif;
-    color: rgba(0,0,0, 0.5)
+    color: rgba(0,0,0, 0.5);
+    margin: 16px 0px;
 }
 .related-content {
     height: 180px;
