@@ -1,7 +1,7 @@
 # Design a mobile responsive web page
 
 ## Overview
-This is my first independent project withing WebDev path.
+This is my first independent project within Codecademy WebDev path.
 
 ## Objective
 A responsive design to refactor an online fashion blog to be viewed from a mobile device
@@ -16,9 +16,9 @@ Specifically: CSS Selectors & Visual Rules, CSS: The Box Model and CSS Display &
 
 * Getting Started With Javascript
 
-## Suggested Technologies
+## Used Technologies
 
-* Flexbox or CSS Grid
+* Flexbox
 
 ## Basic Requirements
 * User Story #1: As a user I like to be able click the image of the article to read the full article.
@@ -33,11 +33,11 @@ Specifically: CSS Selectors & Visual Rules, CSS: The Box Model and CSS Display &
     
 ### Advanced challenges
 * User Story #6: As a user I would like to be able to differentiate between articles with alternating article blocks when scrolling through the list of articles.
-* User Story #7: As a user I would like to be able to choose between viewing the blog in light mode and dark mode.
+* User Story #7: As a user I would like to be able to choose between viewing the blog in light/dark mode.
 
 ## Resources & Support
 
 ### Project-specific resources
 
-Fashion blog source code (https://s3.amazonaws.com/codecademy-content/courses/learn-html/elements-and-structure/fashion.html)
+Web Dev Independent Project #1 – Turn a Site Mobile Responsive source code (https://s3.amazonaws.com/codecademy-content/courses/learn-html/elements-and-structure/fashion.html)
 
