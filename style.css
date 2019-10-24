@@ -134,9 +134,6 @@ main {
     border: 1px solid #c5d5cb;
     margin: 5px;
 }
-.page-post__item {
-    margin: 0 auto;
-}
 .page-post__pic {
     width: 100%;
 }
@@ -160,7 +157,6 @@ main {
     flex-flow: column;
     top: 42px;
     overflow: scroll;
-    background: white;
 }
 .show__post__text {
     display: block;
@@ -174,7 +170,7 @@ main {
 }
 .related-content {
     height: 180px;
-    margin-top: 42px;
+    margin: 42px 5px 5px 5px;
 }
 .related-content__title {
     margin-top: 10px;
@@ -230,6 +226,9 @@ em {
 @media only screen and (min-width: 768px) {
     body {
         height: 2290px;
+    }
+    main {
+        padding: 0 50px;
     }
     .post {
         width: 47%;
@@ -288,6 +287,9 @@ em {
 @media only screen and (min-width: 1024px) {
     body {
         height: 2500px;
+    }
+    main {
+        padding: 0 80px;
     }
     .page-title__pic{
         margin: 10px 6% 10px;
