@@ -158,9 +158,6 @@ main {
 .show__post {
     display: flex;
     flex-flow: column;
-    overflow: scroll;
-    position: -webkit-sticky;
-    position: sticky;
     top: 42px;
     overflow: scroll;
     background: white;
