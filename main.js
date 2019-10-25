@@ -18,7 +18,7 @@ window.onclick = function(event) {
 function changeCursorFunction(){
   document.getElementById("page-title__author").style = "cursor:pointer";
 }
-/* time stamp function */
+/* time stamp countup function */
 window.onload = function() {
   countUpFromTime("Oct 20, 2019 09:00:00", "countup");
 };
