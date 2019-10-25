@@ -92,7 +92,7 @@ header {
 }
 .page-title__pic {
     margin: 10px auto;
-    width: 48%;
+    width: 53.5%;
 }
 .page-title__name {
     padding: 5px;
@@ -130,7 +130,7 @@ main {
 .page-post__tickets,
 .page-post__dressing {
     width: 100%;
-    padding: 5px 5px;
+    padding: 5px;
     border: 1px solid #c5d5cb;
     margin: 5px;
 }
@@ -155,8 +155,7 @@ main {
 .show__post {
     display: flex;
     flex-flow: column;
-    top: 42px;
-    overflow: scroll;
+    scroll-margin-top: 43px;
 }
 .show__post__text {
     display: block;
@@ -217,18 +216,10 @@ em {
     max-width: 315px;
     }
 }
-@media only screen and (min-width: 375px) {
-    body {
-        height: 2400px;
-    }
-}
 
 @media only screen and (min-width: 768px) {
-    body {
-        height: 2290px;
-    }
     main {
-        padding: 0 50px;
+        margin: 0 50px;
     }
     .post {
         width: 47%;
@@ -237,7 +228,7 @@ em {
         width: 45%;
     }
     .page-title__pic {
-        width: 30%;
+        width: 26.1%;
     }
     .page-title__name {
         font-size: 2.3em;
@@ -251,7 +242,7 @@ em {
     .page-post {
         display: block;
         margin-top: 40px;
-        margin-bottom: 45px;
+        margin-bottom: 20px;
     }
     .page-post__item {
         margin: 0px 15px;
@@ -262,6 +253,8 @@ em {
         display: flex;
         width: 97%;
         margin: 5px;
+        max-height: 210px;
+        overflow: hidden;
     }
     .page-post__pic{
         width: 200px;
@@ -274,6 +267,11 @@ em {
     .art__name {
         font-size: 1.5em;
     }
+    .show__post {
+        display: block;
+        max-height: unset;
+        scroll-margin-top: 43px;
+    }
     .related-content__title {
         font-size: 1.5em; 
     }
@@ -285,24 +283,17 @@ em {
     }
 }
 @media only screen and (min-width: 1024px) {
-    body {
-        height: 2500px;
-    }
     main {
-        padding: 0 80px;
+        margin: 0 80px;
     }
     .page-title__pic{
         margin: 10px 6% 10px;
-        width: 28%;
-    }
-    .page-post {
-        margin-top: 40px;
-        margin-bottom: 20px;
+        width: 19.54%;
     }
     .page-post__guide,
     .page-post__tickets,
     .page-post__dressing {
-        width: 98%;
+        width: 97%;
     }
     .page-post__pic{
         width: 200px;
@@ -318,6 +309,11 @@ em {
     .art__name {
         font-size: 1.7em;
     }
+    .show__post {
+        display: block;
+        max-height: unset;
+        scroll-margin-top: 43px;
+    }
     .related-content__title {
         font-size: 1.7em; 
     }
@@ -329,11 +325,8 @@ em {
     }
 }
 @media only screen and (min-width: 1280px) {
-    body {
-        height: 1900px;
-    }
     main {
-        padding: 0 150px;
+        margin: 0 150px;
     }
     .navigation__menubtn {
         display: none;
@@ -353,13 +346,21 @@ em {
         color: black;
     }
     .page-title__pic {
-        width: 150px;
-        height: 150px;
+        width: 15.63%;
         margin: 10px 4% 10px;
     }
-    .page-post {
-        margin-top: 10px;
-        margin-bottom: 15px;
+    .page-title__name {
+        font-size: 1.8em;
+    }
+    .page-title__subt {
+        font-size: 1.1em;
+    }
+    .page-post__guide,
+    .page-post__tickets,
+    .page-post__dressing {
+        display: flex;
+        width: 98%;
+        margin: 5px;
     }
     .page-post__pic{
         width: 200px;
@@ -369,14 +370,13 @@ em {
     .page-post__text__dressing {
         display: block;
     }
-    .page-title__name {
-        font-size: 1.8em;
-    }
-    .page-title__subt {
-        font-size: 1.1em;
-    }
     .art__name {
         font-size: 1.2em;
+    }
+    .show__post {
+        display: block;
+        max-height: unset;
+        scroll-margin-top: 43px;
     }
     .related-content__title {
         font-size: 1.2em; 
