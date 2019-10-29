@@ -153,10 +153,13 @@ main {
     text-align: left;
     color: rgba(0,0,0, 0.5)
 }
-.show__post {
-    display: flex;
-    flex-flow: column;
-    scroll-margin-top: 43px;
+.show__post::before {
+        display: flex;
+        flex-flow: column;
+        content: "";
+        height: 43px;
+        visibility: hidden;
+        pointer-events: none;
 }
 .show__post__text {
     display: block;
@@ -270,7 +273,6 @@ em {
     .show__post {
         display: block;
         max-height: unset;
-        scroll-margin-top: 43px;
     }
     .related-content__title {
         font-size: 1.5em; 
@@ -312,7 +314,6 @@ em {
     .show__post {
         display: block;
         max-height: unset;
-        scroll-margin-top: 43px;
     }
     .related-content__title {
         font-size: 1.7em; 
@@ -376,7 +377,6 @@ em {
     .show__post {
         display: block;
         max-height: unset;
-        scroll-margin-top: 43px;
     }
     .related-content__title {
         font-size: 1.2em; 
