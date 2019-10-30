@@ -1,3 +1,20 @@
+  speechSynthesis.speak(new SpeechSynthesisUtterance());
+  var postTitle = new SpeechSynthesisUtterance();
+var voices = window.speechSynthesis.getVoices();
+postTitle.voice = speechSynthesis.getVoices().filter(function(voice) { return voice.name == "Whisper"; })[0];
+
+/* var voices = speechSynthesis.getVoices().forEach(function(voice) {
+  console.log(voice.name, voice.default ? voice.default :'');
+}); */
+
+postTitle.text = 'Everyday with Isa';
+postTitle.lang = 'en-US';
+postTitle.rate = 1; // 0.1 to 1
+postTitle.volume = 0.2; // 0 to 1
+postTitle.pitch = 0.8; //0 to 2
+postTitle.voiceURI = "native";
+
+speechSynthesis.speak(postTitle);
 /* menu button */
 function btnFunction() {
 document.getElementById("menu-content").classList.toggle("show__menu");
