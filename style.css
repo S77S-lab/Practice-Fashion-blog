@@ -164,7 +164,7 @@ main {
 .show__post__text {
     display: block;
 }
-.art__name {
+.article__name {
     font-size: 1.1em;
     text-align: left;
     font-family: "Roboto", sans-serif;
@@ -267,7 +267,7 @@ em {
     .page-post__text__dressing {
         display: block;
     }
-    .art__name {
+    .article__name {
         font-size: 1.5em;
     }
     .show__post {
@@ -308,7 +308,7 @@ em {
     .page-title__name {
         font-size: 2.1em;
     }
-    .art__name {
+    .article__name {
         font-size: 1.7em;
     }
     .show__post {
@@ -371,7 +371,7 @@ em {
     .page-post__text__dressing {
         display: block;
     }
-    .art__name {
+    .article__name {
         font-size: 1.2em;
     }
     .show__post {

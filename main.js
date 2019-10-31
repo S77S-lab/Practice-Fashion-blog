@@ -1,20 +1,21 @@
-  speechSynthesis.speak(new SpeechSynthesisUtterance());
-  var postTitleSpeech = new SpeechSynthesisUtterance();
-var voices = window.speechSynthesis.getVoices();
-postTitleSpeech.voice = speechSynthesis.getVoices().filter(function(voice) { return voice.name == "Whisper"; })[0];
+/* speech post's title */
+window.addEventListener("DOMContentLoaded", function () {
+  var pagePost = document.getElementById("guide")
+  var titleToSpeech = document.getElementById("guide__speech");
+  
+  pagePost.addEventListener("click", function (event) {
+    event.preventDefault();
+    var toSay = "An Insider's Guide to NYFW"; 
+    var utterence = new SpeechSynthesisUtterance(toSay);
+    utterence.rate = 0.9; // 0.1 to 1
+    utterence.lang = 'en-US';
+    utterence.volume = 0.3; // 0 to 1
+    utterence.pitch = 0.7; //0 to 2
+    
+    speechSynthesis.speak(utterence);
+  });
+});
 
-/* var voices = speechSynthesis.getVoices().forEach(function(voice) {
-  console.log(voice.name, voice.default ? voice.default :'');
-}); */
-
-postTitleSpeech.text = 'Everyday with Isa';
-postTitleSpeech.lang = 'en-US';
-postTitleSpeech.rate = 1; // 0.1 to 1
-postTitleSpeech.volume = 0.2; // 0 to 1
-postTitleSpeech.pitch = 0.8; //0 to 2
-postTitleSpeech.voiceURI = "native";
-
-speechSynthesis.speak(postTitleSpeech);
 /* menu button */
 function btnFunction() {
 document.getElementById("menu-content").classList.toggle("show__menu");
