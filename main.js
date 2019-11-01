@@ -1,9 +1,9 @@
 /* speech post's title */
-window.addEventListener("DOMContentLoaded", function () {
-  var pagePost = document.getElementById("guide")
-  var titleToSpeech = document.getElementById("guide__speech");
-  
-  pagePost.addEventListener("click", function (event) {
+  window.addEventListener("DOMContentLoaded", function () {
+  var postGuide = document.getElementById("guide");
+  var postTickets = document.getElementById("tickets");
+  var postDressing = document.getElementById("dressing");
+  postGuide.addEventListener("click", function (event) {
     event.preventDefault();
     var toSay = "An Insider's Guide to NYFW"; 
     var utterence = new SpeechSynthesisUtterance(toSay);
@@ -12,7 +12,29 @@ window.addEventListener("DOMContentLoaded", function () {
     utterence.volume = 0.3; // 0 to 1
     utterence.pitch = 0.7; //0 to 2
     
-    speechSynthesis.speak(utterence);
+    return speechSynthesis.speak(utterence);
+  });
+  postTickets.addEventListener("click", function (event) {
+    event.preventDefault();
+    var toSay = "Getting Tickets & Picking the Shows"; 
+    var utterence = new SpeechSynthesisUtterance(toSay);
+    utterence.rate = 0.9; // 0.1 to 1
+    utterence.lang = 'en-US';
+    utterence.volume = 0.3; // 0 to 1
+    utterence.pitch = 0.7; //0 to 2
+    
+    return speechSynthesis.speak(utterence);
+  });
+  postDressing.addEventListener("click", function (event) {
+    event.preventDefault();
+    var toSay = "Dressing for the Shows"; 
+    var utterence = new SpeechSynthesisUtterance(toSay);
+    utterence.rate = 0.9; // 0.1 to 1
+    utterence.lang = 'en-US';
+    utterence.volume = 0.3; // 0 to 1
+    utterence.pitch = 0.7; //0 to 2
+    
+    return speechSynthesis.speak(utterence);
   });
 });
 
